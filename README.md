@@ -5,7 +5,7 @@ By default the streamer will pretty print the tweets coming off your stream. Edi
 
 Mappings can be altered / overridden in the tweet_mapper.py
 
-# Setting up the streamer
+## Setting up the streamer
 - Clone the repo into your virtual env
 - pip install the requirements file
 
@@ -15,6 +15,6 @@ Mappings can be altered / overridden in the tweet_mapper.py
 - To output tweets in Datasift format ensure set OUTPUT_IN_DATASIFT_FORMAT config.py to true
 - The streamer automatically reconnects after 10 seconds, you can modify the length of time to wait for a reconnect by editing the value for SECONDS_BEFORE_RECONNECT in config.py
 
-# Running the streamer
+## Running the streamer
 
 ```python streamer.py```
