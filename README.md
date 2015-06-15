@@ -12,7 +12,7 @@ Mappings can be altered / overridden in the tweet_mapper.py
 ```pip install -r requirements```
 
 - Add the URL of your GNIP Stream (find it at http://console.gnip.com) and your GNIP Username and Password to the config.py file
-- To output tweets in Datasift format set OUTPUT_IN_DATASIFT_FORMAT config.py to true
+- To output tweets in Datasift format set OUTPUT_IN_DATASIFT_FORMAT in config.py to true
 - The streamer automatically reconnects after 10 seconds, you can modify the length of time to wait for a reconnect by editing the value for SECONDS_BEFORE_RECONNECT in config.py
 
 ## Running the streamer
