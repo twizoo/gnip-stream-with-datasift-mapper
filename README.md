@@ -3,7 +3,7 @@ Python app to pick tweets off a GNIP Stream and optionally map them to Datasift 
 
 # Setting up the streamer
 1. Clone the repo into your virtual env
-2. Install the requirements file
+2. pip install the requirements file
 
 ```pip install -r requirements```
 
